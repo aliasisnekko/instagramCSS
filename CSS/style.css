@@ -1,0 +1,219 @@
+    html {
+        background: rgb(255, 27, 215);
+        background: linear-gradient(166deg, rgba(255, 27, 215, 1) 16%, rgba(0, 212, 255, 1) 100%);
+        min-height: 99.9%;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    
+    main {
+        width: 500px;
+        height: 800px;
+        background-color: aliceblue;
+        margin: auto;
+        border: 2px black solid;
+        border-radius: 5%;
+    }
+    
+    nav {
+        margin-left: auto;
+    }
+    /* do not style h2 */
+    
+    h1 {
+        font-size: 18pt;
+    }
+    
+    h2 {
+        padding-right: 15px;
+    }
+    
+    hr {
+        border: solid 2px black;
+    }
+    
+    i {
+        padding: 3px;
+    }
+    
+    p {
+        text-align: left;
+    }
+    
+    span {
+        color: darkslategray;
+        font-weight: bold;
+    }
+    
+    button {
+        border: solid 1px grey;
+        border-radius: 5px;
+    }
+    
+    .bgc {
+        background-color: whitesmoke;
+    }
+    
+    .fa-sm {
+        position: absolute;
+        font-size: 7px;
+        padding-bottom: 2px;
+    }
+    
+    .float {
+        float: right;
+    }
+    
+    .blue {
+        color: rgb(22, 102, 252);
+    }
+    
+    .block {
+        display: block;
+    }
+    
+    .i-flex {
+        display: inline-flex;
+    }
+    
+    ._150x150 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .top-margin {
+        margin-top: 22px;
+    }
+    
+    .top-padding {
+        padding-top: 20%;
+    }
+    
+    .bottom-padding {
+        padding-bottom: 10px;
+    }
+    
+    .left-margin {
+        margin-left: 30px;
+    }
+    
+    .left-padding {
+        padding-left: 20px;
+    }
+    
+    .right-margin {
+        margin-right: 15px;
+    }
+    
+    .round-img {
+        border-radius: 100%;
+    }
+    
+    .first-count {
+        margin-left: 10%;
+    }
+    
+    h1.top-padding {
+        padding: 5px 15px 0 75px;
+    }
+    
+    i.float {
+        padding: 20px 15px 0 35px;
+    }
+    
+    i.blue.float {
+        padding-left: 10px !important;
+        font-size: 9px;
+        margin-top: 5px;
+    }
+    
+    i.fa-ellipsis-v {
+        padding-left: 15px;
+    }
+    
+    h2.left-padding {
+        padding-left: 45px;
+    }
+    
+    h2.left-padding.less {
+        padding-left: 25px;
+    }
+    
+    div.margin {
+        position: absolute;
+        margin: 40px 20px 0 -40%;
+    }
+    
+    h1.bottom-padding,
+    p.bottom-padding,
+    a.bottom-padding {
+        margin: 0;
+        font-weight: 400;
+    }
+    
+    p.bottom-padding {
+        padding-bottom: 0;
+    }
+    
+    h1.top-margin {
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    
+    button._150x150 {
+        height: 25px;
+        width: 40%;
+    }
+    
+    #notificationsBar {
+        float: right;
+        padding-right: 25px;
+        align-items: baseline;
+    }
+    
+    #time {
+        padding-left: 15px;
+        display: flexbox;
+        position: relative;
+    }
+    
+    #userBar {
+        display: flex;
+        padding-top: 15px;
+    }
+    
+    #leftUser {
+        padding-left: 85%;
+    }
+    /* .menu-list {
+        float: right;
+        display: inline-flex;
+
+    } */
+    
+    #posts {
+        position: relative;
+        padding-right: 25px;
+        margin-left: -5px;
+    }
+    
+    #followers {
+        margin-left: 35px;
+        padding-right: 45px;
+    }
+    
+    #bio {
+        padding: 0 40px 15px;
+    }
+    
+    #menuBoxes {
+        text-align: center;
+        width: 100%;
+        color: ;
+    }
+    
+    @media all and (min-width:600px) {
+        div.margin {
+            position: absolute;
+            margin: 40px 20px 0 -35%;
+        }
+    }
