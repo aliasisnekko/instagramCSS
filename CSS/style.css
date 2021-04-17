@@ -6,9 +6,8 @@
     }
     
     main {
-        width: 500px;
-        height: 800px;
-        background-color: aliceblue;
+        width: 550px;
+        height: 850px;
         margin: auto;
         border: 2px black solid;
         border-radius: 5%;
@@ -154,6 +153,10 @@
         padding-bottom: 0;
     }
     
+    p.i-flex {
+        padding-top: 55px;
+    }
+    
     h1.top-margin {
         margin-top: 15px;
         font-size: 18px;
@@ -162,6 +165,32 @@
     button._150x150 {
         height: 25px;
         width: 40%;
+    }
+    
+    div.highlights {
+        display: inline-flex;
+    }
+    
+    div.highlights-img {
+        background-color: black;
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        margin-right: 40px;
+        margin-top: 25px;
+        background-size: contain;
+    }
+    
+    div.highlights-text {
+        font-size: 12px;
+        font-weight: bold;
+        margin-left: 4px;
+    }
+    
+    .fa-th {
+        background-color: black;
+        color: aliceblue;
+        margin: 15px;
     }
     
     #notificationsBar {
@@ -208,7 +237,27 @@
     #menuBoxes {
         text-align: center;
         width: 100%;
-        color: ;
+        /* color: ; */
+    }
+    
+    #belief {
+        background-image: url("https://scontent-sea1-1.cdninstagram.com/v/t51.2885-15/s150x150/81896423_996984830685300_1880726709432390880_n.jpg?tp=1&_nc_ht=scontent-sea1-1.cdninstagram.com&_nc_ohc=rRYwMzm7QCIAX-L0rct&edm=AGW0Xe4AAAAA&ccb=7-4&oh=7198e3f4327f3dea73671e9289db0fb1&oe=60A18B71&_nc_sid=acd11b");
+    }
+    
+    #love {
+        background-image: url("https://scontent-sea1-1.cdninstagram.com/v/t51.12442-15/e35/c0.437.1125.1125a/s150x150/67950774_2785120601551069_8025463241785829023_n.jpg?tp=1&_nc_ht=scontent-sea1-1.cdninstagram.com&_nc_cat=1&_nc_ohc=qRSm7nogqLQAX9-Tdkg&edm=AGW0Xe4AAAAA&ccb=7-4&oh=c58cafc11d4b4d4d79e9052371911c21&oe=607D884F&_nc_sid=acd11b");
+    }
+    
+    #flames {
+        background-image: url("https://scontent-sea1-1.cdninstagram.com/v/t51.12442-15/e35/c0.437.1125.1125a/s150x150/62382008_403311930273165_6573376933535405736_n.jpg?tp=1&_nc_ht=scontent-sea1-1.cdninstagram.com&_nc_cat=1&_nc_ohc=QF3N6PZIPV8AX_kcuo9&edm=AGW0Xe4AAAAA&ccb=7-4&oh=b81d57e65bc043087a74d4750ae8919c&oe=607D7ACA&_nc_sid=acd11b");
+    }
+    
+    #likes {
+        background-image: url("https://scontent-sea1-1.cdninstagram.com/v/t51.12442-15/e15/c10.213.662.662a/s150x150/49847802_642249926228819_5229296349074870035_n.jpg?tp=1&_nc_ht=scontent-sea1-1.cdninstagram.com&_nc_cat=1&_nc_ohc=ptqddBMD_p4AX-8Ij0D&edm=AGW0Xe4AAAAA&ccb=7-4&oh=e21a7b6b83ffbcf5467648e9931a63f1&oe=607DBCC2&_nc_sid=acd11b");
+    }
+    
+    #self-love {
+        background-image: url("https://scontent-sea1-1.cdninstagram.com/v/t51.12442-15/e15/c30.290.662.662a/s150x150/28157195_1870888152984531_2858589310045650944_n.jpg?tp=1&_nc_ht=scontent-sea1-1.cdninstagram.com&_nc_cat=1&_nc_ohc=fNTEVITX7iQAX9HepCf&edm=AGW0Xe4AAAAA&ccb=7-4&oh=7d7af43085baf463a5217935beca0ac6&oe=607D8341&_nc_sid=acd11b");
     }
     
     @media all and (min-width:600px) {
